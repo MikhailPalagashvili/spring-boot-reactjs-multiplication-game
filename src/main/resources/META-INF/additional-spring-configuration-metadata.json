@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "amqp.exchange.attempts",
+      "type": "java.lang.String",
+      "description": "Description for amqp.exchange.attempts."
+    },
+    {
+      "name": "service.gamification.host",
+      "type": "java.lang.String",
+      "description": "Description for service.gamification.host."
+    }
+  ] }
