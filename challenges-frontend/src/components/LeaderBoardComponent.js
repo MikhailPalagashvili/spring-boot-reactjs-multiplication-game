@@ -90,20 +90,20 @@ class LeaderBoardComponent extends React.Component {
                 <h3>Leaderboard</h3>
                 <table>
                     <thead>
-                    <tr>
-                        <th>User</th>
-                        <th>Score</th>
-                        <th>Badges</th>
-                    </tr>
+                        <tr>
+                            <th>User</th>
+                            <th>Score</th>
+                            <th>Badges</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    {this.state.leaderboard.map(row => <tr key={row.userId}>
-                        <td>{row.alias ? row.alias : row.userId}</td>
-                        <td>{row.totalScore}</td>
-                        <td>{row.badges.map(
-                            b => <span className="badge" key={b}>{b}</span>)}
-                        </td>
-                    </tr>)}
+                        {this.state.leaderboard.map(row => <tr key={row.userId}>
+                            <td>{row.alias ? row.alias : row.userId}</td>
+                            <td>{row.totalScore}</td>
+                            <td>{row.badges.map(
+                                b => <span className="badge" key={b}>{b}</span>)}
+                            </td>
+                        </tr>)}
                     </tbody>
                 </table>
             </div>

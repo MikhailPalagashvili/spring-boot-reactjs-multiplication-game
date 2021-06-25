@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    consul:
+      config:
+        data-key: application.yml
+        prefixes: config
+        format: yaml
+        default-context: defaults

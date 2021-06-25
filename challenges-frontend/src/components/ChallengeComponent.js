@@ -121,7 +121,7 @@ class ChallengeComponent extends React.Component {
                 </form>
                 <h4>{this.state.message}</h4>
                 {this.state.lastAttempts.length > 0 &&
-                    <LastAttemptsComponent lastAttempts={this.state.lastAttempts}/>
+                <LastAttemptsComponent lastAttempts={this.state.lastAttempts}/>
                 }
                 <LeaderBoardComponent/>
             </div>
