@@ -1,2 +1,2 @@
 # spring-boot-reactjs-multiplication-game
-![alt text](http://url/to/img.png)
+![](https://raw.githubusercontent.com/MikhailPalagashvili/spring-boot-reactjs-multiplication-game/master/images/gamification-brain-teaser-challenges.webp)
