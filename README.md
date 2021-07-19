@@ -1,5 +1,5 @@
-<!-- # spring-boot-reactjs-multiplication-game
-![](https://raw.githubusercontent.com/MikhailPalagashvili/spring-boot-reactjs-multiplication-game/master/images/gamification-brain-teaser-challenges.webp) -->
+# spring-boot-reactjs-multiplication-game
+![](https://raw.githubusercontent.com/MikhailPalagashvili/spring-boot-reactjs-multiplication-game/master/images/gamification-brain-teaser-challenges.webp)
 Define user stories:
 
 a.	As a user of the application, I want to solve a random multiplication problem using mental calculation, so I exercise my brain.
